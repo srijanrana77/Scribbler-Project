@@ -19,15 +19,15 @@
 
       </div>
       <div class="header-btn">
-        <button type="button" name="button" class="signbtns" id="signin">Sign In</button>
-        <button type="button" name="button" class="signbtns" id="signup">Sign Up</button>
+        <button type="button" name="button" class="signbtns" data-toggle="modal" data-target="#ModalSignin" id="signin">Sign In</button>
+        <button type="button" name="button" class="signbtns" data-toggle="modal" data-target="#ModalSignup" id="signup">Sign Up</button>
         <a id="Title" class="logo">ScriBBler</a>
         <p class="subtitle">Explore, Imagine, Create</p>
       </div>
     </div>
     <div class="postButtons">
-      <button type="button" name="button" class="btns2">All Posts</button>
-      <button type="button" name="button" class="btns2">Create Posts</button>
+      <button type="button" name="button" class="btns2" onclick="window.location.href = './html/postslist.html';">All Posts</button>
+      <button type="button" name="button" class="btns2" data-toggle="modal" data-target="#postscreate" id="createbtn">Create Posts</button>
     </div>
 
     <!--MODAL-->

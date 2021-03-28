@@ -1,0 +1,65 @@
+#comments {
+    margin: 10px;
+    width: 780px;
+    height: 70px;
+    background-color: white;
+}
+
+.writer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.writername {
+    font-family: 'Freestyle Script', cursive;
+    font-size: 30px;
+    color: black;
+    font-stretch: normal;
+}
+
+.heading-content {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#editbtn {
+    margin-left: 900px;
+    float: right;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    box-shadow: black;
+}
+
+#like {
+    width: 100px;
+}
+
+#commentbtn {
+    width: 100px;
+}
+
+#counter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.post-content {
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+.comment-container {
+    min-height: 0px;
+    background-color: grey;
+    overflow: hidden;
+    width: 100%;
+}
+
+#c1 {
+    background-color: white;
+    font-style: 'Arial Black';
+    margin: 10px;
+    padding: 10px;
+}
